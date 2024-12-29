@@ -1,9 +1,11 @@
 # Next.js ChatGPT Tutorial Documentation
-> Build and customize your own ChatGPT-like web app using Next.js and the OpenAI API. The provided code serves as a foundation, and you can customize it to fit your specific use case. 
-<img alt="Screenshot" src="./public/img/screenshot.jpg" height="75%" width="75%"/>
+
+> Build and customize your own ChatGPT-like web app using Next.js and the OpenAI API. The provided code serves as a foundation, and you can customize it to fit your specific use case.
+> <img alt="Screenshot" src="./public/img/screenshot.jpg" height="75%" width="75%"/>
 
 ## Tutorial
-You can find a step-by-step tutorial [here](https://www.jakeprins.com/blog/how-to-create-a-chatgpt-application-using-next-js-and-the-openai-api). 
+
+You can find a step-by-step tutorial [here](https://www.jakeprins.com/blog/how-to-create-a-chatgpt-application-using-next-js-and-the-openai-api).
 
 ## Overview
 
@@ -17,19 +19,14 @@ The application uses the following components:
 ## Getting Started
 
 1.  Clone the repository and navigate to the project directory.
-    
 2.  Install the required dependencies by running `npm install` or `yarn`.
-    
 3.  Create a `.env.local` file in the project root and add your OpenAI API key:
     ```
     OPENAI_API_KEY=your_openai_api_key
     ```
 4.  Start the development server by running `npm run dev` or `yarn dev`.
-    
 5.  Open your browser and navigate to `http://localhost:3000` to access the application.
-    
 6.  You can now interact with the chatbot using the input field at the bottom of the screen.
-    
 
 ## Customizing the Application
 
@@ -43,9 +40,9 @@ However, you might be interested in using other models such as GPT-4. As of Marc
 const body = JSON.stringify({
   messages,
   model: 'gpt-4', // Replace 'gpt-3.5-turbo' with 'gpt-4'
-  stream: false
-})
-``` 
+  stream: false,
+});
+```
 
 Remember that the performance, response time, and pricing for different models may vary. Please refer to the OpenAI API documentation for more information on available models and their specific capabilities.
 
@@ -62,4 +59,3 @@ If you have any questions or need further assistance, don't hesitate to create a
 ## TeamSmart AI
 
 For a complete ChatGPT Chrome extension checkout [TeamSmart AI](https://www.teamsmart.ai/).
-

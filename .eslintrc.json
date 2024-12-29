@@ -31,10 +31,7 @@
     "react/react-in-jsx-scope": "off",
     "react/prop-types": "off",
     "jsx-quotes": ["warn", "prefer-double"],
-    "@typescript-eslint/no-unused-vars": [
-      "error",
-      { "argsIgnorePattern": "^_", "ignoreRestSiblings": true }
-    ],
+    "@typescript-eslint/no-unused-vars": ["error", { "argsIgnorePattern": "^_", "ignoreRestSiblings": true }],
     "@typescript-eslint/no-var-requires": 2,
     "@typescript-eslint/explicit-module-boundary-types": "off",
     "@typescript-eslint/no-use-before-define": "off"
